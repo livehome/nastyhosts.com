@@ -1,0 +1,31 @@
+body{
+    background-color: #2b292a;
+    padding: 50px 0;
+    color: white;
+}
+
+a{
+    color: #D41B37 !important;
+}
+
+.container{
+    max-width: 1000px !important;
+}
+
+.logo{
+    margin-bottom: 40px;
+}
+
+.space{
+    height: 40px;
+}
+
+body > footer{
+    opacity: 0.1;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+body > footer a{
+    color: white !important;
+}

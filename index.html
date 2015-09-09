@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NastyHosts.com</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="logo text-center">
+                <a href="http://nastyhosts.com">
+                    <img src="logo.png" alt="NastyHosts">
+                </a>
+            </div>
+
+            <p class="lead text-center">
+                Identify hosts that you don't want on your site. Try it with:
+            </p>
+
+            <pre class="lead">$ curl 'http://v1.nastyhosts.com/52.30.0.1'
+
+{
+  "status": 200,
+  "hostnames": [
+    "ec2-52-30-0-1.eu-west-1.compute.amazonaws.com"
+  ],
+  "suggestion": "deny"
+}</pre>
+
+            <div class="space"></div>
+
+            <h3>What is nasty?</h3>
+
+            <p class="lead">
+                NastyHosts.com was designed for web applications and tries to detect all IP addresses from VPS clouds, VPNs and known spammy networks. It CANNOT be used to test mail servers.
+            </p>
+
+
+        </div>
+
+        <footer class="text-center">
+            powered by <a href="http://livehome.pl/" target="_blank">LiveHome</a>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
+</html>
